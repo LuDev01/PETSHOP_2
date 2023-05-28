@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.ofertas{
+    padding: 5px;
+    padding-left:100px;
+    color:white;
+    font-weight: lighter;
+    display: inline-block;
+    text-align: left;
+}
+.fondo{
+    background-image: url("./img/Header.jpg");
+    height: 630px;
+    position: relative;
+}
+.idioma{
+    display: inline-block;
+    margin-right: 15px;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    
+}
+.bannersup{
+    background-color: rgb(46, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contselecciones{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+.seccionnav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.seccionnav a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+    margin-right: 20px;
+}
+.contnav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 166, 0, 0.781);
+    padding: 20px;
+}
+
+.catdog{
+    padding-left: 50px;
+    color:white;
+
+}
+h3 span {
+    color: black;
+    font-weight: bold;
+}
+.h2main{
+position: absolute;
+right: 100px;
+bottom: 400px;
+background-color: white;
+border-radius: 5px;
+padding: 15px;
+}
+button{
+background-color:#f0a83e;
+color: white;
+position: absolute;
+right: 150px;
+bottom: 230px;
+padding: 15px;
+border-radius: 5px;
+border: transparent;
+cursor: pointer;
+}
+.h4main{
+position: absolute;
+right: 130px;
+bottom: 300px;
+
+}
+.productos h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #5b1f00; 
+}
+p{
+    text-align: center;
+    color:gray;
+}
+.productos img{
+    display: block;
+    margin: auto;
+}
+.juguetes{
+    color: #3C2313;
+}
+.precio{
+    color:#F0A83E;
+}
+.h4footer{
+    background-color:rgb(46, 44, 44);
+    color:white;
+    text-align:center;
+    font-weight: lighter;
+}
